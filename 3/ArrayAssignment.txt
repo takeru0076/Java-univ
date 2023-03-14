@@ -1,0 +1,4 @@
+Array is reference type.
+In the case of reference type, the place where the body of the array is stored is reserved separately, and only the address of the first element of the array is stored in the array variable.
+When the reference is assigned to a new array variable, both will refer to the body of the same array.
+For these reasons, both a[0] and b[0] is "777".

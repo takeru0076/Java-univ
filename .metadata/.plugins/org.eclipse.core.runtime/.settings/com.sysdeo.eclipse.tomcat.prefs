@@ -1,0 +1,7 @@
+tomcatDir=/private/var/folders/9m/rvmwf8sx4616wv309dn10b3c0000gn/T/AppTranslocation/5B0D31AB-09DD-4F94-8171-90959B6A3345/d/Eclipse_2021-12.app/Contents/tomcat/8
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=/private/var/folders/9m/rvmwf8sx4616wv309dn10b3c0000gn/T/AppTranslocation/5B0D31AB-09DD-4F94-8171-90959B6A3345/d/Eclipse_2021-12.app/Contents/tomcat/8/conf/Catalina/localhost
+tomcatVersion=tomcatV8
+computeSourcePath=true
+tomcatConfigFile=/private/var/folders/9m/rvmwf8sx4616wv309dn10b3c0000gn/T/AppTranslocation/5B0D31AB-09DD-4F94-8171-90959B6A3345/d/Eclipse_2021-12.app/Contents/tomcat/8/conf/server.xml

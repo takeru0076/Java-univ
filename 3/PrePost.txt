@@ -1,0 +1,4 @@
+++i is called Pre-increment operator.
+i++ us called Post-increment operator.
+++i increases the value of i by 1 before outputting.However,++ increases the value of i by 1 after outputting.
+For these reasons,  thr value "6" is printed twice.

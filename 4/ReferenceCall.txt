@@ -1,0 +1,56 @@
+Q,  Predict the output of the following program ReferenceCall.java.
+
+Answer  x,y = 100, 120
+
+Q,  explain the process of obtaining
+
+Answer
+new ReferenceCall().test();
+           ↓
+Point point = new Point(8, 5);  
+           ↓
+movePoint(point);
+private void movePoint(Point p){
+ p.setX(100); public void setX(int x){ this.x = x; }
+ p.setY(120); public void setY(int y){ this.y = y; }
+ //(*)
+ }
+          ↓
+int x = point.getX();  public int getX(){ return x; }
+int y = point.getY();  public int getY(){ return y; }
+          ↓
+System.out.println("(x, y) = (" + x + ", " + y + ")");
+
+
+
+
+
+
+
+Q.  Also, predict the output if the following statement is added at the (*) position in ReferenceCall.java.
+p = new Point(0, 0);
+
+Answer  x,y = 100, 120
+
+
+Q,  explain the process of obtaining
+
+Answer 
+new ReferenceCall().test();
+           ↓
+Point point = new Point(8, 5);  
+           ↓
+movePoint(point);
+private void movePoint(Point p){
+ p.setX(100); public void setX(int x){ this.x = x; }
+ p.setY(120); public void setY(int y){ this.y = y; }
+ //(*)
+ p = new Point(0, 0);
+ }
+          ↓
+int x = point.getX();  public int getX(){ return x; }
+int y = point.getY();  public int getY(){ return y; }
+          ↓
+System.out.println("(x, y) = (" + x + ", " + y + ")");
+
+At first, p pointed to the address of point, but by adding (*), it points to (0,0).

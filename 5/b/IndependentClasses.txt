@@ -1,0 +1,6 @@
+⚫ How many fields does the Point have?   two
+⚫ How many fields does the MovingPoint have?  four
+⚫ How many methods does the Point have?  two
+⚫ How many methods does the MovingPoint have?  four
+⚫ Are there any fields with the same meaning in the Point and MovingPoint classes?  two
+⚫ Are there any methods in the Point and MovingPoint classes expressing similar behavior?   two

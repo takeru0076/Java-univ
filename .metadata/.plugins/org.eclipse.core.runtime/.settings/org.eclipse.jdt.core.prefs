@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.launch
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/private/var/folders/9m/rvmwf8sx4616wv309dn10b3c0000gn/T/AppTranslocation/6F3E7641-D7FC-4658-B753-08F77586F9B2/d/Eclipse_2021-12.app/Contents/java/17/Home/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=/private/var/folders/9m/rvmwf8sx4616wv309dn10b3c0000gn/T/AppTranslocation/6F3E7641-D7FC-4658-B753-08F77586F9B2/d/Eclipse_2021-12.app/Contents/java/17/Home/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
+org.eclipse.jdt.core.compiler.compliance=17
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.problem.missingSerialVersion=ignore
+org.eclipse.jdt.core.compiler.source=17

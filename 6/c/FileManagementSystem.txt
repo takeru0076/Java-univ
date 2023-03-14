@@ -1,0 +1,7 @@
+Which methods are "overloaded" in the pre-modified program?
+
+public void add(File file)
+public void add(Directory directory)
+
+What are the abstract methods in the modified program?
+public abstract int getSize();
